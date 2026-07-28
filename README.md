@@ -20,3 +20,10 @@ pip install paho-mqtt
 ``` shell
 python3 main.py
 ```
+
+# Quick Test to check if it works!
+
+    Run the program — defaults to test.mosquitto.org:1883 (public broker).
+    Click Connect — status turns green.
+    Subscribe to test/topic.
+    In the Publish section, set topic test/topic and send a message — you'll see it echoed back in the received-messages panel.
