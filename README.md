@@ -1,9 +1,10 @@
-# MQTT Client using Python3 for IoT with Local Broker 
+# Local MQTT Broker using Python3 for IoT
 
-A simple Python-based MQTT Client that demonstrates how to connect to an MQTT broker, publish messages, subscribe to topics, and receive real-time data. This project is suitable for beginners learning MQTT as well as developers testing IoT devices.
+A lightweight MQTT Broker implemented in Python for local development, testing, and educational purposes. This project enables MQTT-based communication without requiring external brokers such as Mosquitto, making it ideal for learning, rapid prototyping, and small-scale IoT applications.
 
 ## Features
 - Connect to any MQTT Broker
+- Host your own MQTT Local Broker
 - Publish messages to MQTT topics
 - Subscribe to one or more MQTT topics
 - Real-time message reception
