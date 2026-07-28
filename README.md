@@ -27,3 +27,5 @@ python3 main.py
     Click Connect — status turns green.
     Subscribe to test/topic.
     In the Publish section, set topic test/topic and send a message — you'll see it echoed back in the received-messages panel.
+
+# NOTE: Currently this DOES NOT support ENCRYPTION and certificates
