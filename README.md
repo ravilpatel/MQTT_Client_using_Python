@@ -1,10 +1,42 @@
 # MQTT Client using Python3 for IoT with Local Broker 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/27cee535-e9a4-4eda-a58e-6ce34b48d301" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/974a2bb5-21e1-4613-a7b7-7191bb35047a" />
 
-# NOTE: Currently this DOES NOT support ENCRYPTION and certificates
+A simple Python-based MQTT Client that demonstrates how to connect to an MQTT broker, publish messages, subscribe to topics, and receive real-time data. This project is suitable for beginners learning MQTT as well as developers testing IoT devices.
 
-# NOTE for Broker Name
+## Features
+- Connect to any MQTT Broker
+- Publish messages to MQTT topics
+- Subscribe to one or more MQTT topics
+- Real-time message reception
+- Easy to configure
+- Lightweight and beginner friendly
+- Built using the Eclipse Paho MQTT Python library
+
+## LIMITATION:
+Currently this DOES NOT support ENCRYPTION and certificates
+
+## Steps for running MQTT Local Broker with Client
+### Step 0: Check for Python installation
+``` shell
+python3
+```
+```python3
+print("Everything is working if this is printed properly in terminal")
+```
+
+### Step 1: Download Dependency
+``` shell
+pip install paho-mqtt
+pip install paho-mqtt amqtt
+```
+
+### Step 2: Run the GUI
+``` shell
+python3 main.py
+```
+
+
+
+## NOTE for Broker Name
 
 If you are connecting within the same computer you can use 
 ``` shell
@@ -28,26 +60,10 @@ ip a
 <img width="902" height="451" alt="image" src="https://github.com/user-attachments/assets/7c4a2413-4948-4f81-b089-2b66a30acbd3" />
 
 
-# Steps for running MQTT Local Broker with Client
-## Run the script.
-### Step 0: Check for Python installation
-``` shell
-python3
-```
-```python3
-print("Everything is working if this is printed properly in terminal")
-```
+## Image Gallery
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/27cee535-e9a4-4eda-a58e-6ce34b48d301" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/974a2bb5-21e1-4613-a7b7-7191bb35047a" />
 
-### Step 1: Download Dependency
-``` shell
-pip install paho-mqtt
-pip install paho-mqtt amqtt
-```
-
-### Step 2: Run the GUI
-``` shell
-python3 main.py
-```
 
 ## Quick Test to check if it works!
 - Open the Local Broker tab.
